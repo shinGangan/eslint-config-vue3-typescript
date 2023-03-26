@@ -2,6 +2,7 @@
   "recommendations": [
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "vue.volar"
+    "vue.volar",
+    "yusukehirao.vscode-markuplint"
   ]
 }
