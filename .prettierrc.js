@@ -1,3 +1,3 @@
 module.exports = {
-  ...require("./lib/prettier-configs/recommend"),
+  ...require("./lib/prettier-configs/recommended"),
 };
