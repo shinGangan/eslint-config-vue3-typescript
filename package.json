@@ -1,0 +1,44 @@
+{
+  "name": "@Shimpei-GAGAN/eslint-config-vue3-typescript",
+  "version": "0.1.0",
+  "description": "ESLint rules for Vue3 + TypeScript for myself",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "author": "Shimpei Iwamaru (https://github.com/Shimpei-GANGAN)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shimpei-GANGAN/eslint-config-vue3-typescript.git"
+  },
+  "engines": {
+    "node": "^16.19.0 || >=18.0.0"
+  },
+  "scripts": {
+    "lint": "eslint lib/*.{js,ts}",
+    "lint:fix": "eslint --fix lib/*.{js,ts}",
+    "format": "prettier -w lib/*.{js,ts}"
+  },
+  "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "eslint-plugin-vue": "^9.10.0",
+    "prettier": "^2.8.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "typescript": "^5.0.2"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
