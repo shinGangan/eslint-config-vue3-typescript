@@ -1,3 +1,3 @@
 module.exports = {
-  extends: require('./lib/configs/recommended'),
+  extends: require("./lib/configs/recommended"),
 };
